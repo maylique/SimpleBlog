@@ -5,6 +5,22 @@
   text-align: center;
 }
 
+.cardgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
